@@ -1,0 +1,14 @@
+{
+  "name": "anotherdemo",
+  "version": "1.0.0",
+  "description": "OrangeMind exam sprint clickable demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx serve ."
+  },
+  "keywords": ["orange", "click-through", "demo"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
