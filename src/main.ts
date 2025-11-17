@@ -789,6 +789,10 @@ class OrangeSprintDemo {
   }
 }
 
-window.addEventListener('DOMContentLoaded', () => {
-  new OrangeSprintDemo('app');
-});
+const bootstrap = () => new OrangeSprintDemo('app');
+
+if (document.readyState === 'loading') {
+  window.addEventListener('DOMContentLoaded', bootstrap, { once: true });
+} else {
+  bootstrap();
+}
