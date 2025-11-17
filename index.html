@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>橙知 · 考前 3 天冲刺 Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="logo-area">
+        <div class="logo-dot"></div>
+        橙知 · 考前冲刺
+      </div>
+      <nav>
+        <ul>
+          <li><button class="nav-shortcut" data-target="landing">首页</button></li>
+          <li><button class="nav-shortcut" data-target="upload">资料上传</button></li>
+          <li><button class="nav-shortcut" data-target="tasks">任务树</button></li>
+          <li><button class="nav-shortcut" data-target="mock">模拟考</button></li>
+        </ul>
+      </nav>
+      <div class="mascot-face">🍊</div>
+    </header>
+    <main id="app"></main>
+    <aside id="chat-panel" hidden></aside>
+    <div class="toast-area" id="toast-area"></div>
+    <script src="dist/main.js" type="module"></script>
+  </body>
+</html>
